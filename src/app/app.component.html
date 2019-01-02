@@ -1,21 +1,54 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<app-encabezado></app-encabezado>
 <router-outlet></router-outlet>
+<app-footer></app-footer>
+
+
+
+
+
+
+
+
+
+<!--<h1 class="container bg-dark text-white text-center my-4 py-4">ngif show= {{show}}</h1>
+<div class="container">
+    <table class="table">
+      <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">TIPO</th>
+              <th scope="col">NOMBRE</th>
+              <th scope="col">EDAD</th>
+          </tr>
+      </thead>
+      <tbody>
+
+        <tr *ngFor="let animal of animales; index as i">
+        <th scope="row">{{i+1}}</th>
+        <td>{{animal.tipo}}</td>
+        <td>{{animal.nombre}}</td>
+        <td>{{animal.edad}}</td>
+        </tr>
+      </tbody>   
+    </table>
+</div>-->
+
+
+
+
+
+
+
+ <!-- <button class="btn btn-dark mb-3"(click)="activo='primero'">Primero</button>
+  <button class="btn btn-danger mb-3"(click)="activo='segundo'">Segundo</button>
+  <button class="btn btn-primary mb-5"(click)="activoFull=''">full</button>
+
+  <p class="text-info d-none" [ngClass]="{'d-block':activo=='primero'}">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum est incidunt impedit laudantium? Rem possimus, vero iure et voluptatibus dolore ipsam labore vitae,
+     voluptatem quia odio similique? Voluptate, doloremque officiis.
+  </p>
+  
+  <p class="text-danger d-none" [ngClass]="{'d-block':activo=='segundo'}">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum est incidunt impedit laudantium? Rem possimus, vero iure et voluptatibus dolore ipsam labore vitae,
+      voluptatem quia odio similique? Voluptate, doloremque officiis.
+  </p>-->

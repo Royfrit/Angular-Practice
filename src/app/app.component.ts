@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-dream-app';
+  
+ /* animales:Array<any> = [
+    {tipo:'Perro' ,nombre:'lisa' ,edad:10},
+    {tipo:'Gato', nombre:'shiro' ,edad:7},
+    {tipo:'pato', nombre:'cheo' , edad:25}
+  ]*/
+
 }
